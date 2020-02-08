@@ -5,11 +5,6 @@ library of stefmolin but modifing it for bitcoin view too.
 ## Permissions
 Please fork if you want to modify.
 
-## Licensing
-
-### This library is MIT-licensed
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/DevilDipan/Data-Miner_Plotter/blob/master/LICENSE)
-
 ## Installation
 
 1.	Python latest – python 3.7.3
