@@ -7,19 +7,9 @@ Please fork if you want to modify.
 
 ## Installation
 
-1.	Python latest – python 3.7.3
-2.	Jetbrains Pycharm(IDE) – v2019.1
-
-## Trick to install Django in proxy based systems
-
-pip install --proxy http://user:password@proxyserver:port Django
-
-## Trick to use runserver in a different port
-
-python manage.py runserver ip:port
+1.	Python latest – python 3.8.2
+2.	Jetbrains Pycharm(IDE) – v2019.3.3
 
 ## Python Dependencies
 
-Install the [Requirements.txt](https://github.com/DevilDipan/Data-Miner_Plotter/blob/master/Requirments.txt)
-
-**pip install requirements.txt**
+**pip install [requirements.txt](https://github.com/DevilDipan/Data-Miner_Plotter/blob/master/Requirments.txt)**
