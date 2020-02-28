@@ -1,7 +1,11 @@
-# DataMiner & Plotter
+# Data Miner & Plotter
 Data minor and plotter using data from kaggle, yahoo on stocks using 
 library of stefmolin but modifing it for bitcoin view too.
 
+## License
+
+### This is under Apache v2.0 License
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/DevilDipan/dataplotter_stefmolin/blob/master/LICENSE)
 ## Permissions
 Please fork if you want to modify.
 
