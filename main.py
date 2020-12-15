@@ -1,8 +1,5 @@
 import matplotlib.pyplot as plt
-from stock_analysis import StockVisualizer
-from stock_analysis import StockReader
-from stock_analysis import StockModeler
-from stock_analysis import AssetGroupVisualizer
+from stock_analysis import StockVisualizer, StockReader, StockModeler, AssetGroupVisualizer
 
 print("Do you want to input value ?(1 for Yes)")
 inpu = int(input())
