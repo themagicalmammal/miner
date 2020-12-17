@@ -30,11 +30,11 @@ from stock_analysis.utils import group_stocks, describe_group
 
 faang = group_stocks(
     {
-        'Facebook' : fb,
-        'Apple' : aapl,
-        'Amazon' : amzn,
-        'Netflix' : nflx,
-        'Google' : goog
+        'Facebook': fb,
+        'Apple': aapl,
+        'Amazon': amzn,
+        'Netflix': nflx,
+        'Google': goog
     }
 )
 
@@ -57,7 +57,7 @@ print("4. Amazon")
 print("5. Google")
 print("6. Bitcoin")
 print("7. Comparison of all stocks in that period")
-print("Enter your choice:- ",end="")
+print("Enter your choice:- ", end="")
 z = int(input())
 
 if z == 1:
