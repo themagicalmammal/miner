@@ -20,7 +20,6 @@ def start():
     global Date_start_entry
     global Date_end_entry
 
-    # print("Do you want to input value ?(1 for Yes)")
     response = messagebox.askyesno("Popup", "Do you want to start?")
     inpu = response
     if inpu == 1:
