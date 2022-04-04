@@ -64,9 +64,6 @@ def my_func():
 
 def my_func2():
     global z
-    global Date_start_entry
-    global Date_end_entry
-    global currency_var
     ds = Date_start_entry.get()
     de = Date_end_entry.get()
     c = currency_var.get()
