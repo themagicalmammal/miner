@@ -43,7 +43,6 @@ def start():
 
 
 def my_func():
-    global currecny_var
 
     if len(Date_start_entry.get()) < 10 and len(Date_end_entry.get()) < 10:
         messagebox.showwarning("Invalid Dates",
@@ -63,7 +62,6 @@ def my_func():
 
 
 def my_func2():
-    global z
     ds = Date_start_entry.get()
     de = Date_end_entry.get()
     c = currency_var.get()
