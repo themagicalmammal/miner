@@ -8,7 +8,6 @@ root.title("Stock Analysis")
 root.geometry("400x400")
 root.iconbitmap("icon/favicon.ico")
 
-# global variables
 Date_start_entry = ""
 Date_end_entry = ""
 currency_var = StringVar()
