@@ -1,12 +1,14 @@
 import matplotlib.pyplot as plt
-from stock_analysis import (AssetGroupVisualizer, StockModeler, StockReader,
-                            StockVisualizer)
+from stock_analysis import (
+    AssetGroupVisualizer,
+    StockModeler,
+    StockReader,
+    StockVisualizer,
+)
 from stock_analysis.utils import describe_group, group_stocks
 
 
-
 def miner(Date_start, Date_end, currency_var, z):
-
 
     reader = StockReader(Date_start, Date_end)
 
@@ -18,7 +20,7 @@ def miner(Date_start, Date_end, currency_var, z):
 
     # get S&P 500 data
     # print(reader.available_tickers)
-    sp = reader.get_index_data('NASDAQ')
+    sp = reader.get_index_data("NASDAQ")
 
     # Grouping Data
 
@@ -46,7 +48,8 @@ def miner(Date_start, Date_end, currency_var, z):
             "close",
             figsize=(10, 4),
             legend=False,
-            title="Netflix closing price over time")
+            title="Netflix closing price over time",
+        )
         netflix_viz.add_reference_line(
             ax,
             x=nflx.high.idxmax(),
@@ -64,7 +67,8 @@ def miner(Date_start, Date_end, currency_var, z):
             "close",
             figsize=(10, 4),
             legend=False,
-            title="Facebook closing price over time")
+            title="Facebook closing price over time",
+        )
         facebook_viz.add_reference_line(
             bx,
             x=fb.high.idxmax(),
@@ -78,10 +82,12 @@ def miner(Date_start, Date_end, currency_var, z):
         fig = decomposition.plot()
 
     elif z == 3:
-        cx = apple_viz.evolution_over_time("close",
-                                           figsize=(10, 4),
-                                           legend=False,
-                                           title="Apple closing price over time")
+        cx = apple_viz.evolution_over_time(
+            "close",
+            figsize=(10, 4),
+            legend=False,
+            title="Apple closing price over time",
+        )
         apple_viz.add_reference_line(
             cx,
             x=aapl.high.idxmax(),
@@ -95,10 +101,12 @@ def miner(Date_start, Date_end, currency_var, z):
         fig = decomposition.plot()
 
     elif z == 4:
-        dx = amazon_viz.evolution_over_time("close",
-                                            figsize=(10, 4),
-                                            legend=False,
-                                            title="Amazon closing price over time")
+        dx = amazon_viz.evolution_over_time(
+            "close",
+            figsize=(10, 4),
+            legend=False,
+            title="Amazon closing price over time",
+        )
         amazon_viz.add_reference_line(
             dx,
             x=amzn.high.idxmax(),
@@ -112,10 +120,12 @@ def miner(Date_start, Date_end, currency_var, z):
         fig = decomposition.plot()
 
     elif z == 5:
-        ex = google_viz.evolution_over_time("close",
-                                            figsize=(10, 4),
-                                            legend=False,
-                                            title="Google closing price over time")
+        ex = google_viz.evolution_over_time(
+            "close",
+            figsize=(10, 4),
+            legend=False,
+            title="Google closing price over time",
+        )
         google_viz.add_reference_line(
             ex,
             x=goog.high.idxmax(),
@@ -133,7 +143,8 @@ def miner(Date_start, Date_end, currency_var, z):
             "close",
             figsize=(10, 4),
             legend=False,
-            title="Bitcoin closing price over time")
+            title="Bitcoin closing price over time",
+        )
         bitcoin_viz.add_reference_line(
             fx,
             x=bitcoin.high.idxmax(),
