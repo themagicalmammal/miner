@@ -3,3 +3,4 @@ pandas
 statsmodels
 numpy
 seaborn
+stock-analyser
